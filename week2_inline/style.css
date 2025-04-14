@@ -1,0 +1,111 @@
+header{
+  text-align: center;
+}
+section{
+  text-align: center;
+  background-color: #ffffff;
+  padding: 20px;
+  margin: 20px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color:aqua;
+    
+  }
+  h1{
+    text-align: center;
+  }
+  
+  #navigation {
+    /* padding: 15px;
+    
+    background-color: #333;*/
+   
+    background-color: #333;
+    color: white;
+    padding: 15px;
+    position: fixed;
+    width: 100%;
+    top: 0; 
+    text-align: center;
+
+  }
+  
+  #navigation ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  #navigation ul li {
+    display: inline;
+    margin-right: 30px;
+  }
+  
+  #navigation ul li a {
+    display: inline;
+    padding: 15px 20px;
+    text-decoration: none;
+     color: white; 
+  }
+  #navigation ul li a:link{
+    
+    color: red;
+  }
+  #navigation ul li a:visited{
+    
+    color: red;
+  }
+  #navigation ul li a:hover{
+    background-color: red;
+    color: white;
+  }
+  #navigation ul li a:active{
+    background-color: red ;
+    color: white;
+  }
+  /* General styles for the footer */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+}
+
+/* Styles for the content within the footer */
+.footer-content {
+  max-width: 600px; /* Adjust the maximum width of the content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.footer-content img {
+  width: 150px;
+  height: 20px;
+}
+
+#side h3{
+  text-align: left;
+}
+#side ul{
+  text-align: left;
+}
+table {
+  border-collapse: collapse;
+  width: 50%;
+  margin: 0 auto;
+}
+th, td {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+th {
+  background-color: #f2f2f2;
+}.bold-text {
+  font-weight: bold;
+}
+
+
+
