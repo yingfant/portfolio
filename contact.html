@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Portfolio</title>
+<link rel = "stylesheet" type = "text/css"	href="style.css">
+</head>
+    <body>
+
+    <div id="wrapper"> 
+    
+
+    <aside>
+        <nav id="navigation">
+            <header><h1><i>My Portfolio</i></h1></header>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="education.html">Education</a></li>
+                <li><a href="skills.html">Skills</a></li>
+                
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+        </nav>
+
+
+    </aside>
+
+    <section>
+        <article>
+            <header>
+                <h2>
+                    Contact Us
+                </h2>
+            </header>
+            <form action="contact.html" id="contactForm" method="post" onsubmit="showAlert()">
+                <table>
+                    <tr>
+                        <td><label for="fname">Name:</label></td>
+                        <td><input required="required" type="text" name="fname" id="fname" autofocus="" placeholder="Enter Your Full Name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="age">Age:</label></td>
+                        <td><input required="required" type="number" min="18" max="59" name="age" id="age"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="birthday">Date of Birth:</label></td>
+                        <td><input type="date" name="birthday" id="birthday"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="tel">Mobile number:</label></td>
+                        <td><input required="required" type="tel" name="tel" id="tel" placeholder="01x-xxxxxxxxxx"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="country">Country:</label></td>
+                        <td>
+                            <select id="country" name="country">
+                                <option value="volvo">Malaysia</option>
+                                <option value="saab">Singapore</option>
+                                <option value="fiat">Indonesia</option>
+                                <option value="audi">Others</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="gender">Gender:</label></td>
+                        <td>
+                            <input required="required" type="radio" name="gender" id="male">Male
+                            <input required="required" type="radio" name="gender" id="female">Female
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="email">Email:</label></td>
+                        <td><input required="required" type="email" name="email" id="email" placeholder="Your email"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="homepage">Personal / Company website:</label></td>
+                        <td><input type="url" name="homepage" id="homepage" placeholder="Enter your URL"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="method">Preferred method of contact:</label></td>
+                        <td>
+                            <input required="required" type="checkbox" name="method" id="phone">Phone
+                            <input type="checkbox" name="method" id="emailContact">Email
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label for="message">Message:</label></td>
+                        <td><textarea required="required" name="message" id="message" rows="4" cols="50" placeholder="Type your message here..."></textarea></td>
+                    </tr>
+                    <tr>
+                        <td colspan="2">
+                            <input class="btn" type="submit" name="submit" value="Submit form">
+                            <input class="btn" type="reset" name="reset" value="Clear form">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </article>
+    </section>
+    <footer>
+        <div class="footer">
+            <a href="https://www.facebook.com">
+                <img src="image/Facebook_Logo.png" alt="Facebook" class="social-link" id="facebook"></a>
+                <a href="https://www.instagram.com">
+                <img src="image/Instagram_Logo.png" alt="Instagram" class="social-link" id="instagram"></a>
+                <a href="https://www.twitter.com">
+                <img src="image/Twitter_Logo.png" alt="Twitter" class="social-link" id="twitter"></a>
+                <a href="https://www.youtube.com">
+                <img src="image/Youtube_Logo.png" alt="Youtube" class="social-link" id="youtube"></a>
+        </div>
+
+    <h5>Copyright &copy yingfant556@gmail.com |2023</h5>
+
+    </footer>
+
+        </div>
+    </body>
+</html>
